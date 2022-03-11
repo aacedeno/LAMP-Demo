@@ -8,8 +8,8 @@
 
 
 sudo apt install ufw
-sudo Ufw default deny incoming 
-sudo Ufw default all outgoing
+sudo ufw default deny incoming 
+sudo ufw default all outgoing
 sudo ufw allow ssh
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
